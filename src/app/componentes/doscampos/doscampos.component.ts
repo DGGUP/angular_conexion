@@ -22,7 +22,7 @@ this.registrosObtenidos();
     this.registroSrv.ObtenerRegistros().subscribe(
       (response:any) => {
         this.registros =response.registros;
-        console.log(this.registros);
+        console.log(this.registros[0],[campo1],[campo2]);
       }
     );
 
